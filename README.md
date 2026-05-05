@@ -4,6 +4,9 @@
 
 > Đề bài chi tiết: xem [`BAI-THI.md`](./BAI-THI.md)
 
+- Repo: <https://github.com/TheMOBfamily/de-recruitment-test>
+- Bản tham chiếu (live demo starter): <https://de-recruitment-test.vercel.app>
+
 
 ## Tóm tắt nhanh
 
