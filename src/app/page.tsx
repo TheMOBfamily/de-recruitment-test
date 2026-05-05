@@ -1,65 +1,78 @@
-import Image from "next/image";
+/**
+ * Trang chính — STARTER SCAFFOLD cho bài thi tuyển dụng Deutschfuns.
+ *
+ * Yêu cầu hoàn thiện:
+ *   1. Hero section + CTA dẫn đến form đăng ký
+ *   2. Section giới thiệu 3 tính năng (lộ trình, giáo viên, AI)
+ *   3. Form đăng ký gọi POST /api/register
+ *   4. Toast thông báo thành công/lỗi
+ *
+ * Đề bài chi tiết: xem BAI-THI.md ở thư mục gốc.
+ */
+
+import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
+    <main className="min-h-screen bg-gradient-to-b from-slate-50 to-white text-slate-900">
+      <section className="mx-auto max-w-5xl px-6 py-20 sm:py-28">
+        <div className="text-center">
+          <p className="inline-block rounded-full bg-amber-100 px-3 py-1 text-xs font-medium text-amber-900 mb-6">
+            Bài thi tuyển dụng — Starter Scaffold
           </p>
+          <h1 className="text-4xl sm:text-6xl font-bold tracking-tight mb-6">
+            Deutschfuns Recruitment Test
+          </h1>
+          <p className="text-lg sm:text-xl text-slate-600 mb-10 max-w-2xl mx-auto">
+            Chào ứng viên. Đây là starter scaffold cho bài thi đầu vào.
+            Hãy đọc <code className="bg-slate-100 px-2 py-0.5 rounded">BAI-THI.md</code> ở
+            thư mục gốc để xem yêu cầu chi tiết và bắt đầu thay thế nội dung
+            file <code className="bg-slate-100 px-2 py-0.5 rounded">src/app/page.tsx</code>.
+          </p>
+          <div className="flex gap-3 justify-center flex-wrap">
+            <Link
+              href="/api/register"
+              className="rounded-lg border border-slate-300 px-6 py-3 hover:bg-slate-50 transition"
+            >
+              Test API endpoint
+            </Link>
+            <a
+              href="https://nextjs.org/docs/app"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="rounded-lg bg-slate-900 px-6 py-3 text-white hover:bg-slate-800 transition"
+            >
+              Next.js App Router docs
+            </a>
+          </div>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+
+        <div className="grid sm:grid-cols-3 gap-6 mt-24">
+          {[
+            {
+              t: "Bước 1 — Đọc đề",
+              d: "Mở BAI-THI.md, hiểu rõ yêu cầu bắt buộc và tùy chọn",
+            },
+            {
+              t: "Bước 2 — Code",
+              d: "Thay nội dung này bằng landing page Deutschfuns + form đăng ký",
+            },
+            {
+              t: "Bước 3 — Deploy",
+              d: "Chạy `npx vercel` để deploy, ghi lại URL và nộp cùng repo",
+            },
+          ].map((f) => (
+            <div key={f.t} className="rounded-xl border border-slate-200 p-6">
+              <h3 className="font-semibold mb-2">{f.t}</h3>
+              <p className="text-sm text-slate-600">{f.d}</p>
+            </div>
+          ))}
         </div>
-      </main>
-    </div>
+
+        <footer className="mt-24 pt-8 border-t border-slate-200 text-center text-sm text-slate-500">
+          © 2026 Deutschfuns LMS — Recruitment Test
+        </footer>
+      </section>
+    </main>
   );
 }

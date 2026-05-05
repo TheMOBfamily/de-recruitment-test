@@ -1,0 +1,312 @@
+{
+  "generated": "2026-05-05T17:06:11.476315",
+  "entries": [
+    {
+      "source": "/home/fong/.claude/CLAUDE.md",
+      "line": 3,
+      "type": "claude-md",
+      "short": "Purpose."
+    },
+    {
+      "source": "/home/fong/.claude/CLAUDE.md",
+      "line": 7,
+      "type": "claude-md",
+      "short": "Contracts."
+    },
+    {
+      "source": "/home/fong/.claude/CLAUDE.md",
+      "line": 16,
+      "type": "claude-md",
+      "short": "Global Invariants (INV — never violated)."
+    },
+    {
+      "source": "/home/fong/.claude/CLAUDE.md",
+      "line": 28,
+      "type": "claude-md",
+      "short": "Mandatory First Actions (Zero Skip — MCP-First + Staggered)."
+    },
+    {
+      "source": "/home/fong/.claude/CLAUDE.md",
+      "line": 79,
+      "type": "claude-md",
+      "short": "WBS Task Decomposition."
+    },
+    {
+      "source": "/home/fong/.claude/CLAUDE.md",
+      "line": 123,
+      "type": "claude-md",
+      "short": "Style."
+    },
+    {
+      "source": "/home/fong/.claude/CLAUDE.md",
+      "line": 129,
+      "type": "claude-md",
+      "short": "Prompt Response Scaffold (RCIFENI-O — Zero Skip)."
+    },
+    {
+      "source": "/home/fong/.claude/CLAUDE.md",
+      "line": 176,
+      "type": "claude-md",
+      "short": "Bayesian Thinking (ABSOLUTE — EVERY TASK, EVERY DECISION)."
+    },
+    {
+      "source": "/home/fong/.claude/CLAUDE.md",
+      "line": 205,
+      "type": "claude-md",
+      "short": "Quantitative Decision Proof (ABSOLUTE — NO DECISION WITHOUT MATH)."
+    },
+    {
+      "source": "/home/fong/.claude/CLAUDE.md",
+      "line": 251,
+      "type": "claude-md",
+      "short": "Double-Check & Cross-Check."
+    },
+    {
+      "source": "/home/fong/.claude/CLAUDE.md",
+      "line": 271,
+      "type": "claude-md",
+      "short": "Red-Team (H₀-First Validation)."
+    },
+    {
+      "source": "/home/fong/.claude/CLAUDE.md",
+      "line": 293,
+      "type": "claude-md",
+      "short": "Anti-Patterns (AI Behavioral)."
+    },
+    {
+      "source": "/home/fong/.claude/CLAUDE.md",
+      "line": 303,
+      "type": "claude-md",
+      "short": "Delegation Hierarchy (ABSOLUTE — Cheaper Model > Self)."
+    },
+    {
+      "source": "/home/fong/.claude/CLAUDE.md",
+      "line": 364,
+      "type": "claude-md",
+      "short": "Mindsets (Index — Load on Demand)."
+    },
+    {
+      "source": "/home/fong/.claude/CLAUDE.md",
+      "line": 368,
+      "type": "claude-md",
+      "short": "Vietnamese Diacritics (Zero Tolerance)."
+    },
+    {
+      "source": "/home/fong/.claude/CLAUDE.md",
+      "line": 389,
+      "type": "claude-md",
+      "short": "SCRUDL Workflow."
+    },
+    {
+      "source": "/home/fong/.claude/CLAUDE.md",
+      "line": 398,
+      "type": "claude-md",
+      "short": "Fnote / Obsidian — Second Brain (Cross-Project Knowledge)."
+    },
+    {
+      "source": "/home/fong/.claude/CLAUDE.md",
+      "line": 461,
+      "type": "claude-md",
+      "short": "Memory."
+    },
+    {
+      "source": "/home/fong/.claude/CLAUDE.md",
+      "line": 508,
+      "type": "claude-md",
+      "short": "Docs Folder Naming."
+    },
+    {
+      "source": "/home/fong/.claude/CLAUDE.md",
+      "line": 511,
+      "type": "claude-md",
+      "short": "Hyperfocus."
+    },
+    {
+      "source": "/home/fong/.claude/CLAUDE.md",
+      "line": 515,
+      "type": "claude-md",
+      "short": "Git & Safety."
+    },
+    {
+      "source": "/home/fong/.claude/CLAUDE.md",
+      "line": 533,
+      "type": "claude-md",
+      "short": "Autoclaude Execution."
+    },
+    {
+      "source": "/home/fong/.claude/CLAUDE.md",
+      "line": 536,
+      "type": "claude-md",
+      "short": "Memory SCRUDL (End of EVERY Response — policy see § Memory § Access Policy)."
+    },
+    {
+      "source": "/home/fong/.claude/CLAUDE.md",
+      "line": 554,
+      "type": "claude-md",
+      "short": "Daily Log — today.md (End of EVERY Response)."
+    },
+    {
+      "source": "/home/fong/.claude/CLAUDE.md",
+      "line": 573,
+      "type": "claude-md",
+      "short": "Prompt-Response (Meta-Learning — End of EVERY Session)."
+    },
+    {
+      "source": "/home/fong/.claude/CLAUDE.md",
+      "line": 585,
+      "type": "claude-md",
+      "short": "Session End Git Flow (Auto)."
+    },
+    {
+      "source": "/home/fong/.claude/CLAUDE.md",
+      "line": 592,
+      "type": "claude-md",
+      "short": "Knowledge Sources (80% of time)."
+    },
+    {
+      "source": "/home/fong/.claude/CLAUDE.md",
+      "line": 595,
+      "type": "claude-md",
+      "short": "DSS MCP (Decision Support System)."
+    },
+    {
+      "source": "/home/fong/.claude/CLAUDE.md",
+      "line": 648,
+      "type": "claude-md",
+      "short": "DSS1 — Knowledge First, Confidence Last."
+    },
+    {
+      "source": "/home/fong/.claude/CLAUDE.md",
+      "line": 667,
+      "type": "claude-md",
+      "short": "Perplexity + Brave (Anti-Bias Rule)."
+    },
+    {
+      "source": "/home/fong/.claude/CLAUDE.md",
+      "line": 671,
+      "type": "claude-md",
+      "short": "Codebase Exploration (see § Delegation Hierarchy)."
+    },
+    {
+      "source": "/home/fong/.claude/CLAUDE.md",
+      "line": 675,
+      "type": "claude-md",
+      "short": "Get Memory (Schema — Policy see § Memory § Access Policy)."
+    },
+    {
+      "source": "/home/fong/.claude/CLAUDE.md",
+      "line": 696,
+      "type": "claude-md",
+      "short": "JIT Advisor (Mandatory — Min 3 per Response, Staggered)."
+    },
+    {
+      "source": "/home/fong/.claude/CLAUDE.md",
+      "line": 716,
+      "type": "claude-md",
+      "short": "WBS Task Delegation (see § Delegation Hierarchy)."
+    },
+    {
+      "source": "/home/fong/.claude/CLAUDE.md",
+      "line": 720,
+      "type": "claude-md",
+      "short": "File Analysis (Before Edit)."
+    },
+    {
+      "source": "/home/fong/.claude/CLAUDE.md",
+      "line": 725,
+      "type": "claude-md",
+      "short": "CLI Rules."
+    },
+    {
+      "source": "/home/fong/.claude/CLAUDE.md",
+      "line": 737,
+      "type": "claude-md",
+      "short": "Python Virtual Environment."
+    },
+    {
+      "source": "/home/fong/.claude/CLAUDE.md",
+      "line": 742,
+      "type": "claude-md",
+      "short": "OCR (Image / PDF Text Extraction)."
+    },
+    {
+      "source": "/home/fong/.claude/CLAUDE.md",
+      "line": 746,
+      "type": "claude-md",
+      "short": "CLI Error Recovery (Zero Skip)."
+    },
+    {
+      "source": "/home/fong/.claude/CLAUDE.md",
+      "line": 749,
+      "type": "claude-md",
+      "short": "Safe Calculation MCP (ABSOLUTE — ZERO MENTAL MATH, ZERO EXCEPTION)."
+    },
+    {
+      "source": "/home/fong/.claude/CLAUDE.md",
+      "line": 772,
+      "type": "claude-md",
+      "short": "Context Management (Prevent Overflow)."
+    },
+    {
+      "source": "/home/fong/.claude/CLAUDE.md",
+      "line": 787,
+      "type": "claude-md",
+      "short": "MCP Fallback + Recovery (Zero Quit)."
+    },
+    {
+      "source": "/home/fong/.claude/CLAUDE.md",
+      "line": 798,
+      "type": "claude-md",
+      "short": "System Prompt Debugger (Citation Traceability)."
+    },
+    {
+      "source": "/home/fong/.claude/CLAUDE.md",
+      "line": 824,
+      "type": "claude-md",
+      "short": "Anti-Bias Protocol."
+    },
+    {
+      "source": "/home/fong/.claude/CLAUDE.md",
+      "line": 836,
+      "type": "claude-md",
+      "short": "Checklist Compliance (Zero Exception)."
+    },
+    {
+      "source": "/home/fong/.claude/CLAUDE.md",
+      "line": 849,
+      "type": "claude-md",
+      "short": "Textor."
+    },
+    {
+      "source": "/home/fong/.claude/CLAUDE.md",
+      "line": 854,
+      "type": "claude-md",
+      "short": "LaTeX Validation."
+    },
+    {
+      "source": "/home/fong/.claude/CLAUDE.md",
+      "line": 859,
+      "type": "claude-md",
+      "short": "Patterns."
+    },
+    {
+      "source": "/home/fong/.claude/CLAUDE.md",
+      "line": 862,
+      "type": "claude-md",
+      "short": "Calendar CRUD (Outlook)."
+    },
+    {
+      "source": "/home/fong/.claude/CLAUDE.md",
+      "line": 866,
+      "type": "claude-md",
+      "short": "Additional MCP."
+    },
+    {
+      "source": "/home/fong/.claude/CLAUDE.md",
+      "line": 869,
+      "type": "claude-md",
+      "short": "Validation Checklist (Session End)."
+    }
+  ],
+  "count": 51
+}
