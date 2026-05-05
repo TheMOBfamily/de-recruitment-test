@@ -39,3 +39,20 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# AI/IDE tooling (boilerplate clone — not for candidate)
+.claude/
+.fong/
+.vscode/
+.opencode/
+opencode.json
+*.code-workspace
+
+# Backups
+*.b
+*.bak
+*.backup*
+
+# Temp
+.temp/
+_tmp/
